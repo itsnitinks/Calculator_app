@@ -1,0 +1,48 @@
+.buttons {
+  width: 40px;
+  height: 40px;
+
+  font-size: 15px;
+  border-radius: 15%;
+}
+
+input:hover {
+  background-color: bisque;
+  font-size: 20px;
+  /* width: 50px; */
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1608512532288-8f985c15345d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=739&q=80");
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+}
+.box {
+  width: 280px;
+  height: 320px;
+  border: 2px solid red;
+  background-color: black;
+  margin: auto;
+  margin-top: 50px;
+
+  /* margin: auto; */
+}
+.screen {
+  width: 260px;
+  height: 40px;
+  font-size: 20px;
+  text-align: right;
+  margin-bottom: 20px;
+  margin: 2px;
+  /* margin: auto; */
+}
+.operations {
+  margin-top: 70px;
+  display: grid;
+  grid-template-rows: repeat(5, 55px);
+  grid-template-columns: repeat(5, 55px);
+  font-size: 60px;
+  /* grid-gap:5px */
+  margin: auto;
+  margin-top: 15px;
+  margin-left: 5px;
+}
